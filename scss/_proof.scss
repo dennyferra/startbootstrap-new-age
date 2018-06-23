@@ -1,7 +1,7 @@
 // Styling for the proof section
 section.proof {
     .section-heading {
-        margin-bottom: 20px;
+        margin-bottom: 100px;
         h2 {
             margin-top: 0;
         }
@@ -36,5 +36,26 @@ section.proof {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+    }
+    .container-fluid .row {
+        margin-bottom: 20px;
+
+        p {
+            text-align: justify;
+            font-size: 16px;
+            color: #67757d;
+        }
+    }
+    .ex {
+        margin-top: 5px;
+
+        i {
+            color: red;
+            font-size: 32px;
+        }
+    }
+    strong {
+        display: block;
+        margin-bottom: 10px;
     }
 }

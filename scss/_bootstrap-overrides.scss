@@ -5,6 +5,12 @@
     background: linear-gradient($theme-primary, darken($theme-primary, 5%));
 }
 
+.bg-primary-fade {
+    background: $theme-primary;
+    background: -webkit-linear-gradient(white, $theme-primary);
+    background: linear-gradient(white, $theme-primary);
+}
+
 .text-primary {
     color: $theme-primary;
 }
