@@ -288,16 +288,16 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+section.proof {
+  padding-bottom: 0px;
+}
+
 section.proof .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 section.proof .section-heading h2 {
   margin-top: 0;
-}
-
-section.proof .section-heading p {
-  margin-bottom: 0;
 }
 
 section.proof .device-container,
@@ -337,7 +337,7 @@ section.proof .feature-item i {
 }
 
 section.proof .container-fluid .row {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 section.proof .container-fluid .row p {
@@ -351,8 +351,15 @@ section.proof .ex {
 }
 
 section.proof .ex i {
-  color: red;
   font-size: 32px;
+}
+
+section.proof .ex i.no {
+  color: red;
+}
+
+section.proof .ex i.yes {
+  color: #00c200;
 }
 
 section.proof strong {
